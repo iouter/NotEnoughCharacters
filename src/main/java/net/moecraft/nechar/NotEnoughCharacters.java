@@ -28,20 +28,29 @@ public class NotEnoughCharacters {
         @Override
         public void load(BiConsumer<Character, String[]> feed) {
             super.load(feed);
-            feed.accept('\ue900', new String[]{"lu2", "jinlu"}); // 钅卢
-            feed.accept('\ue901', new String[]{"du4", "jindu"}); //钅杜
-            feed.accept('\ue902', new String[]{"xi3", "jinxi"}); //钅喜
-            feed.accept('\ue903', new String[]{"bo1", "jinbo"}); //钅波
-            feed.accept('\ue904', new String[]{"hei1", "jinhei"}); //钅黑
-            feed.accept('\u9fcf', new String[]{"mai4", "jinmai"});//钅麦
-            feed.accept('\ue906', new String[]{"da2", "jinda"});//钅达
-            feed.accept('\ue907', new String[]{"lun2", "jinlun"});//钅仑
-            feed.accept('\u9fd4', new String[]{"ge1", "jinge"});//钅哥
-            feed.accept('\u9fed', new String[]{"ni3", "jiner"});//钅尔
-            feed.accept('\ue90a', new String[]{"fu1", "jinfu"});//钅夫
-            feed.accept('\ue90c', new String[]{"li4", "jinli"});//钅立
-            feed.accept('\u9fec', new String[]{"tian2", "shitian"});// 石田
-            feed.accept('\u9feb', new String[]{"ao4", "qiao", "aoqi"});//气奥
+            feed.accept('\ue900', new String[]{"lu2", "jinlu"}); // 钅卢 𬬻
+            feed.accept('\udf3b', new String[]{"lu2", "jinlu"});
+            feed.accept('\ue901', new String[]{"du4", "jindu"}); //钅杜 𬭊
+            feed.accept('\udf4a', new String[]{"du4", "jindu"});
+            feed.accept('\ue902', new String[]{"xi3", "jinxi"}); //钅喜 𬭳
+            feed.accept('\udf73', new String[]{"xi3", "jinxi"});
+            feed.accept('\ue903', new String[]{"bo1", "jinbo"}); //钅波 𬭛
+            feed.accept('\udf5b', new String[]{"bo1", "jinbo"});
+            feed.accept('\ue904', new String[]{"hei1", "jinhei"}); //钅黑 𬭶
+            feed.accept('\udf76', new String[]{"hei1", "jinhei"});
+            feed.accept('\u9fcf', new String[]{"mai4", "jinmai"});//钅麦 鿏
+            feed.accept('\ue906', new String[]{"da2", "jinda"});//钅达 𫟼
+            feed.accept('\udffc', new String[]{"da2", "jinda"});
+            feed.accept('\ue907', new String[]{"lun2", "jinlun"});//钅仑 𬬭
+            feed.accept('\udf2d', new String[]{"lun2", "jinlun"});
+            feed.accept('\u9fd4', new String[]{"ge1", "jinge"});//钅哥 鿔
+            feed.accept('\u9fed', new String[]{"ni3", "jiner"});//钅尔 鿭
+            feed.accept('\ue90a', new String[]{"fu1", "jinfu"});//钅夫 𫓧
+            feed.accept('\udce7', new String[]{"fu1", "jinfu"});
+            feed.accept('\ue90c', new String[]{"li4", "jinli"});//钅立 𫟷
+            feed.accept('\udff7', new String[]{"li4", "jinli"});
+            feed.accept('\u9fec', new String[]{"tian2", "shitian"});// 石田 鿬
+            feed.accept('\u9feb', new String[]{"ao4", "qiao", "aoqi"});//气奥 鿫
         }
     }
 
