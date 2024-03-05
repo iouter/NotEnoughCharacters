@@ -29,9 +29,9 @@ public class NotEnoughCharacters {
         public void load(BiConsumer<Character, String[]> feed) {
             super.load(feed);
             feed.accept('\ue900', new String[]{"lu2", "jinlu"}); // 钅卢 𬬻
-            feed.accept('\udf3b', new String[]{"lu2", "jinlu"});
+            feed.accept('\ud872\udf3b', new String[]{"lu2", "jinlu"});
             feed.accept('\ue901', new String[]{"du4", "jindu"}); //钅杜 𬭊
-            feed.accept('\udf4a', new String[]{"du4", "jindu"});
+            feed.accept('\ud872\udf4a', new String[]{"du4", "jindu"});
             feed.accept('\ue902', new String[]{"xi3", "jinxi"}); //钅喜 𬭳
             feed.accept('\udf73', new String[]{"xi3", "jinxi"});
             feed.accept('\ue903', new String[]{"bo1", "jinbo"}); //钅波 𬭛
